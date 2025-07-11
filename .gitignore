@@ -1,0 +1,30 @@
+// Vscode
+.DS_Store
+# Ignore macOS system files
+Thumbs.db
+# Ignore Windows system files
+# Ignore node_modules directory
+node_modules/
+# Ignore log files
+*.log
+# Ignore environment files
+.env
+# Ignore build directories
+dist/
+build/
+# Ignore coverage reports
+coverage/
+# Ignore temporary files
+*.tmp
+*.temp
+# Ignore IDE specific files
+.vscode/
+.idea/
+# Ignore package lock files
+package-lock.json
+yarn.lock
+# Ignore test files
+*.test.js
+*.spec.js
+# Ignore compiled files
+*.js.map
