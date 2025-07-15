@@ -1,6 +1,6 @@
 # Cape Town Travel Website
 
-Welcome to the Cape Town Travel Website project! This is a multi-page web project for CIS 181: Web Development I, showcasing the vibrant city of Cape Town, South Africa. The site is built using **HTML5**, **CSS3**, and a bit of **JavaScript**, with a focus on semantic markup, good design, and accessibility.
+Welcome to the Cape Town Travel Website project! This is a multi-page web project for CIS 181: Web Development, showcasing the vibrant city of Cape Town, South Africa. The site is built using **HTML5**, **CSS3**, and a bit of **JavaScript**, with a focus on semantic markup, good design, and accessibility.
 
 ---
 
@@ -20,12 +20,12 @@ cape-town-travel/
 │   ├── reset.css         # CSS Reset for browser consistency
 │   └── style.css         # Main stylesheet for all pages
 │
-├── images/               # All project images (add your own here)
+├── images/               # All project images
 │
 ├── js/
-│   └── script.js         # JavaScript for interactivity (e.g. dynamic footer year)
+│   └── script.js         # JavaScript for interactivity
 │
-├── video/                # Video files (add your own .mp4 or link)
+├── videos/                # Video files
 │
 ├── index.html            # Home page
 ├── history-culture.html  # History & Culture page
@@ -48,15 +48,7 @@ cape-town-travel/
    Practical travel info, local foods, top activities, and a sample video clip.
 
 4. **About the Developer (`about.html`)**  
-   Meet the developer (Emeric Fokouong Touolac), learn about the motivation for the project, and watch an optional video intro.
-
----
-
-## 🖼️ Images & Media
-
-- **Images**: Add royalty-free or personal images to the `images/` folder.
-- **Videos**: Place your own video clips in the `video/` folder.
-- **Credits**: Always credit image and video sources beneath each media item (per assignment requirements).
+   Meet the developer (Emeric Fokouong Touolac), learn about the motivation for the project, and watch a cool video of the city.
 
 ---
 
@@ -69,18 +61,12 @@ cape-town-travel/
    - Open `index.html` in your preferred browser (Chrome, Firefox, Edge, etc.).
    - Navigate through the pages using the navigation menu.
 
-3. **Customize Content**  
-   - Replace placeholder images and videos with your own.
-   - Update photo and video credits as needed.
-   - Expand text content as required for your assignment.
-
-4. **Test & Validate**  
+3. **Test & Validate**  
    - Ensure all links work and media loads.
    - Validate HTML & CSS with [W3C Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
 5. **Publish (if required)**  
-   - Upload all files and folders (not zipped) to your web host or GitHub Pages.
-   - Make sure to include the entire folder structure.
+   - The project will be using GitHub Pages or any web hosting service suggested by the instructor.
 
 ---
 
@@ -91,15 +77,14 @@ cape-town-travel/
 - **External CSS**: Clean design using a dedicated stylesheet for consistency.
 - **Navigation Bar**: Simple, consistent navigation on all pages.
 - **Custom Table & Lists**: Demonstrates use of semantic tables and lists.
-- **Dynamic Year**: Footer automatically updates to the current year using JavaScript.
-- **Ready for Expansion**: Just add your own content, images, and video!
+- I will add more to the list of features as I continue to develop the site.
 
 ---
 
 ## 📝 Credits & Attributions
 
 - **Images**: Use and credit images from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/), or other royalty-free sources.
-- **Video**: If using clips from YouTube or other sites, include a link and credit.
+- **Video**: Mostly from unplash as well
 - **Starter code**: Handcrafted for CIS 181 final project requirements.
 
 ---
@@ -107,9 +92,9 @@ cape-town-travel/
 ## 👤 About the Developer
 
 **Emeric Fokouong Touolac**  
-Student, CIS 181: Web Development I  
+Student, CIS 181: Web Development
 Passionate about sharing the beauty of Cape Town with the world!
 
 ---
 
-If you have questions, suggestions, or want to connect, feel free to reach out!
+If you have questions, suggestions, or want to connect with me, feel free to reach out at this email :efokouongtouolac@student.ccc.edu!
