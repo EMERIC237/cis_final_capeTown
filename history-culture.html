@@ -4,13 +4,16 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Cape Town Travel | History & Culture</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/history-culture.css">
 </head>
+
 <body>
   <header>
     <h1>Cape Town: History & Culture</h1>
@@ -24,14 +27,51 @@
     </ul>
   </nav>
   <main>
-    <section>
+    <section class="history-section">
       <h2>The Story of Cape Town</h2>
-      <article>
-        <p>From its colonial past to its modern-day significance, Cape Town has been shaped by diverse cultures and historic events. The city is famous for landmarks such as Robben Island—where Nelson Mandela was imprisoned, the District Six Museum, and the vibrant Bo-Kaap neighborhood.</p>
-        <img src="images/ashley-jurius-EHz0cDqoL8k-unsplash.jpg" alt="Mountain in cape Town." />
-        <p class="img-credit">Photo by Marlin Clark on Unsplash</p>
+      <article class="history-content">
+        <p>From its colonial past to its modern-day significance, Cape Town has been shaped by diverse cultures and
+          historic events. The city is famous for landmarks such as Robben Island—where Nelson Mandela was imprisoned,
+          the District Six Museum, and the vibrant Bo-Kaap neighborhood.</p>
+
+        <div class="landmark-story">
+          <h3>The Sentinel of the Atlantic: The Story of Table Mountain</h3>
+          <div class="img-wrapper">
+            <img src="images/ashley-jurius-EHz0cDqoL8k-unsplash.jpg" alt="Table Mountain overlooking Cape Town" />
+            <p class="img-credit">Photo by Ashley Jurius on Unsplash</p>
+          </div>
+          <p>Rising majestically above the city of Cape Town, Table Mountain is more than just a natural wonder—it's a
+            timeless sentinel overlooking the endless blue stretch of the Atlantic Ocean. With its iconic flat summit
+            and breathtaking cliffs, this mountain has stood for millions of years, watching over sailors, settlers, and
+            generations of people who have called this place home.</p>
+
+          <p>Long before modern explorers ever set eyes on its dramatic silhouette, Table Mountain was revered by the
+            indigenous Khoisan people, who believed it to be a sacred place, alive with the spirits of nature. They
+            called it "Hoerikwaggo", meaning "Mountain in the Sea." The name speaks to its awe-inspiring presence,
+            rising almost unexpectedly from the coast, with clouds often spilling over its top like a heavenly
+            tablecloth—known locally as the "tablecloth" cloud.</p>
+
+          <p>When Portuguese explorer Bartolomeu Dias first rounded the Cape in 1488, Table Mountain became a critical
+            landmark—a beacon of hope signaling the halfway point of a long, treacherous journey around Africa. Later,
+            when Dutch settlers established the Cape Colony, the mountain became the backdrop of a new chapter in South
+            African history.</p>
+
+          <p>Today, Table Mountain is not only a UNESCO World Heritage Site but also one of the New Seven Natural
+            Wonders of the World. It draws millions of visitors each year who come to hike, ride the cable car, and gaze
+            in wonder at the sweeping views of the Atlantic Ocean shimmering below. From the summit, the coastline
+            stretches endlessly to the north and south, with Robben Island, the prison that once held Nelson Mandela,
+            visible in the bay—a reminder of South Africa's long journey to freedom.</p>
+
+          <p>Yet, beyond its scenic grandeur, Table Mountain symbolizes endurance and peace. It is a constant companion
+            to Cape Town, a natural guardian that has seen centuries unfold at its feet.</p>
+
+          <p>Whether you're standing on the beach, watching the sunset cast golden light on its cliffs, or atop the
+            mountain breathing in the cool Atlantic breeze, Table Mountain invites every visitor to pause, reflect, and
+            marvel at the beauty where earth, sky, and sea meet in perfect harmony.</p>
+        </div>
       </article>
     </section>
+
     <aside>
       <h2>Must-Visit Sites</h2>
       <ol class="custom-list">
@@ -39,12 +79,46 @@
         <li>District Six Museum</li>
         <li>Bo-Kaap</li>
         <li>Castle of Good Hope</li>
+        <li>Table Mountain Cable Car</li>
       </ol>
     </aside>
+
+    <!-- New detailed history and culture section -->
+    <section class="history-section">
+      <h2>History and Culture of Cape Town, South Africa</h2>
+      <article class="history-content">
+        <p>Cape Town, South Africa, boasts a rich and complex history, marked by several pivotal moments:</p>
+        <ul class="history-highlights">
+          <li><strong>Establishment as a Refreshment Station:</strong> Founded in 1652 by the Dutch East India Company
+            as a crucial refreshment station for ships sailing between Europe and the East, Cape Town's strategic
+            location at the confluence of the Atlantic and Indian Oceans played a vital role in global trade routes.
+          </li>
+          <li><strong>The Battle of Muizenberg (1795):</strong> This battle, though relatively small, marked a
+            significant turning point, leading to the first British occupation of the Cape, beginning a period of
+            British control that influenced the region for over a century and laid the groundwork for British expansion
+            into Southern Africa.</li>
+          <li><strong>The South African (Boer) War (1899-1902):</strong> While not directly fought in Cape Town, the
+            war's impact was deeply felt throughout South Africa. The discovery of diamonds and gold in the interior
+            attracted British imperial interest, ultimately leading to the conflict and shaping the political landscape
+            for decades to come.</li>
+          <li><strong>The Apartheid Era (1948-1994):</strong> This period of institutionalized racial segregation
+            profoundly impacted Cape Town. The Group Areas Act forcibly removed and displaced residents of vibrant
+            mixed-race communities like District Six, relocating them to townships on the Cape Flats.</li>
+          <li><strong>Nelson Mandela's Release from Prison (1990):</strong> This watershed moment in Cape Town
+            symbolized the beginning of the end of apartheid. Mandela's release, after 27 years of imprisonment on
+            Robben Island and other locations, sparked hope and fueled the transition towards a democratic South Africa.
+          </li>
+          <li><strong>Hosting the 2010 FIFA World Cup:</strong> South Africa, including Cape Town, hosted the FIFA World
+            Cup, a major international event that showcased the nation's progress and potential, attracting global
+            attention and leaving a lasting impact on infrastructure and tourism.</li>
+        </ul>
+      </article>
+    </section>
   </main>
   <footer>
     &copy; <span id="year"></span> Emeric Fokouong Touolac | CIS 181 | Image credits as listed.
   </footer>
   <script src="js/script.js"></script>
 </body>
+
 </html>

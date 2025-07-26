@@ -3,10 +3,11 @@
   Name: Emeric Fokouong Touolac
   Course: CIS 181
   This is the main landing page of the Cape Town Travel Website.
-  It introduces Cape Town and welcomes visitors.
+  It introduces Cape Town.
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Cape Town Travel | Welcome</title>
@@ -14,6 +15,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
     <h1>Cape Town Travel</h1>
@@ -28,21 +30,52 @@
     </ul>
   </nav>
   <main>
-    <section>
+    <section class="hero-section">
       <h2>Welcome to Cape Town</h2>
       <article>
-        <p>Cape Town is a vibrant city nestled between majestic Table Mountain and the Atlantic Ocean. From its breathtaking landscapes to its rich blend of cultures, Cape Town promises an unforgettable experience for every visitor.</p>
-        <img src="images/capeTown-area.jpg" alt="A panoramic view of Cape Town and Table Mountain. Photo by Marlin Clark, Unsplash." />
-        <p class="img-credit">Photo by Marlin Clark on Unsplash</p>
+        <p class="intro-text">Welcome to Cape Town, the jewel of South Africa and one of the world's most beautiful
+          cities. Nestled dramatically between the iconic Table Mountain and the sparkling waters of the Atlantic Ocean,
+          Cape Town offers a perfect blend of natural wonders, rich history, and vibrant culture. From pristine beaches
+          and lush vineyards to colorful neighborhoods and world-class dining, this coastal paradise has something for
+          every traveler. Whether you're seeking adventure in the great outdoors, delving into fascinating history, or
+          simply relaxing in breathtaking surroundings, Cape Town invites you to discover its many treasures.</p>
+
+        <div class="image-showcase">
+          <img src="images/capeTown-area.jpg"
+            alt="A breathtaking aerial view of Cape Town showing the city nestled between Table Mountain and the Atlantic Ocean." />
+          <div class="image-caption">
+            <h3>A City Between Mountain and Sea</h3>
+            <p>This stunning aerial view showcases Cape Town's unique geography, with the iconic Table Mountain
+              providing a majestic backdrop to the vibrant city below, while the azure waters of the Atlantic Ocean
+              embrace its coastline.</p>
+            <p class="img-credit">Photo by Marlin Clark on Unsplash</p>
+          </div>
+        </div>
+
+        <div class="welcome-features">
+          <div class="feature-card">
+            <h3>Natural Wonders</h3>
+            <p>Explore Table Mountain, Cape Point, Kirstenbosch Botanical Gardens, and pristine beaches that showcase
+              nature's spectacular beauty.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Rich Heritage</h3>
+            <p>Discover a fascinating history spanning indigenous cultures, colonial influences, and the inspiring
+              journey to democracy.</p>
+          </div>
+        </div>
       </article>
     </section>
-    <aside>
+
+    <aside class="quick-facts">
       <h2>Quick Facts</h2>
       <ul class="custom-list">
-        <li>Located in South Africa</li>
-        <li>Population: ~5.1 million</li>
-        <li>Known for Table Mountain</li>
-        <li>Home to Robben Island</li>
+        <li>Located at the southwestern tip of South Africa</li>
+        <li>Population: approximately 5.1 million</li>
+        <li>Home to the iconic Table Mountain, one of the New 7 Wonders of Nature</li>
+        <li>Historic Robben Island where Nelson Mandela was imprisoned</li>
+        <li>Boasts over 20 Blue Flag beaches</li>
+        <li>South Africa's oldest city, established in 1652</li>
       </ul>
     </aside>
   </main>
@@ -51,4 +84,5 @@
   </footer>
   <script src="js/script.js"></script>
 </body>
+
 </html>

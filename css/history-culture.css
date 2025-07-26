@@ -1,0 +1,151 @@
+/* Specific styling for History & Culture page */
+
+/* Enhance typography for history content */
+.history-content {
+    line-height: 1.8;
+    font-size: 1.05rem;
+    color: #333;
+}
+
+.history-content p {
+    margin-bottom: 1.5rem;
+}
+
+.history-content ul {
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.history-content li {
+    margin-bottom: 1rem;
+}
+
+/* Table Mountain story styling */
+.landmark-story {
+    background-color: rgba(0, 121, 107, 0.05);
+    border-left: 4px solid #00796b;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    border-radius: 0 8px 8px 0;
+    position: relative;
+}
+
+.landmark-story h3 {
+    color: #00695c;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.landmark-story p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.landmark-story .img-wrapper {
+    margin: 1.5rem 0;
+    position: relative;
+}
+
+.landmark-story img {
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.landmark-story img:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.landmark-story .img-credit {
+    font-style: italic;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+}
+
+/* Make the bulleted list more attractive */
+.history-highlights {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.history-highlights li {
+    position: relative;
+    padding-left: 1.75rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.history-highlights li::before {
+    content: "•";
+    color: #00796b;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: -0.2rem;
+}
+
+.history-highlights strong {
+    color: #00695c;
+    font-weight: 600;
+}
+
+/* Enhance section headers */
+.history-section h2 {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+    margin-top: 2.5rem;
+    font-size: 1.8rem;
+    color: #00695c;
+}
+
+/* Make must-visit list more attractive */
+.custom-list {
+    list-style-type: none;
+    counter-reset: site-counter;
+    padding-left: 0.5rem;
+}
+
+.custom-list li {
+    counter-increment: site-counter;
+    position: relative;
+    padding: 0.75rem 0 0.75rem 3rem;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.custom-list li:last-child {
+    border-bottom: none;
+}
+
+.custom-list li::before {
+    content: counter(site-counter);
+    position: absolute;
+    left: 0;
+    top: 0.65rem;
+    background-color: #00796b;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Enhance aside styling */
+aside {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin: 2rem 0;
+}
+
+aside h2 {
+    margin-top: 0;
+}

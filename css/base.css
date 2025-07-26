@@ -1,0 +1,68 @@
+/* Base styles for Cape Town Travel Website */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8f9fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header h1,
+header p {
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.3rem;
+    margin: 0;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+h2 {
+    color: #00796b;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.7rem;
+}
+
+a {
+    transition: color 0.2s;
+}
+
+a:hover,
+a:focus {
+    color: #26a69a;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 1rem 0;
+}
+
+figcaption,
+.img-credit {
+    font-size: 0.75rem;
+    color: #555;
+    text-align: center;
+    margin-top: 0.25rem;
+}

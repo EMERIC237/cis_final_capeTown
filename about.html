@@ -4,6 +4,7 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>About the Developer | Cape Town Travel</title>
@@ -11,6 +12,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
     <h1>About the Web Developer</h1>
@@ -27,17 +29,40 @@
     <section>
       <h2>Emeric Fokouong Touolac</h2>
       <article>
-        <img src="images/your-photo.jpg" alt="Emeric Fokouong Touolac portrait" style="width:180px;float:left;margin:0 1.2rem 1.2rem 0;">
-        <p>Hi, my name is Emeric Fokouong Touolac. I am currently studying web development in the United States. I chose to create a website about Cape Town because of my deep connection to Africa and the inspiration I got from a friend's beautiful trip there.</p>
-        <p>My passion for travel and discovering new cultures drives me to learn and share useful resources for fellow travelers. I hope this site inspires you to discover the beauty and diversity of Cape Town!</p>
+        <img src="images/eme.jpeg" alt="Emeric Fokouong Touolac portrait"
+          style="width:180px;float:left;margin:0 1.2rem 1.2rem 0;">
+        <p>Hi, my name is Emeric Fokouong Touolac. I am currently studying web development in the United States. I chose
+          to create a website about Cape Town because of my deep connection to Africa and the inspiration I got from a
+          friend's beautiful trip there.</p>
+        <p>My passion for travel and discovering new cultures drives me to learn and share useful resources for fellow
+          travelers. I hope this site inspires you to discover the beauty and diversity of Cape Town!</p>
       </article>
       <article>
-        <h2>Video Introduction</h2>
-        <video controls poster="images/ashley-jurius-53tN_APs-50-unsplash.jpg">
-          <source src="videos/4873092-uhd_3840_2160_25fps.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <h2>A view of my favorite city</h2>
+        <div class="media-container">
+          <video id="aboutVideo" controls poster="images/ashley-jurius-53tN_APs-50-unsplash.jpg">
+            <source src="videos/4873092-uhd_3840_2160_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <audio id="forestAudio" preload="auto" controls loop style="display: none;">
+            <source src="audio/spring-forest-nature-332842.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <p class="img-credit">Video with soothing forest background sounds.</p>
+        </div>
       </article>
+    </section>
+    <section>
+      <h2>Send me a message here!</h2>
+      <form id="emailForm" class="contact-form">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
     </section>
   </main>
   <footer>
@@ -45,4 +70,5 @@
   </footer>
   <script src="js/script.js"></script>
 </body>
+
 </html>

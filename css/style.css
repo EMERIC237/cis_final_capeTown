@@ -1,3 +1,12 @@
+/* Main CSS file - imports all other stylesheets */
+
+@import url('base.css');
+@import url('layout.css');
+@import url('components.css');
+@import url('history-culture.css');
+@import url('home.css');
+@import url('responsive.css');
+
 /* Styles for Cape Town Travel Website */
 
 body {
@@ -8,12 +17,7 @@ body {
   padding: 0;
 }
 
-header {
-  background: #00796b;
-  color: #fff;
-  padding: 1.5rem 0 1rem 0;
-  text-align: center;
-}
+/* Header styles moved to layout.css */
 
 nav {
   background: #004d40;
@@ -49,7 +53,7 @@ nav ul li a:visited {
 }
 
 main {
-  max-width: 900px;
+  max-width: 98%;
   margin: 2rem auto;
   padding: 1.5rem;
   background: #fff;
@@ -129,4 +133,176 @@ a {
 a:hover,
 a:focus {
   color: #26a69a;
+}
+
+.contact-form {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f1f8e9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #00796b;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background: #00796b;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact-form button:hover,
+.contact-form button:focus {
+  background: #26a69a;
+}
+
+
+/* Tablet and smaller screens */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  main {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 0.8rem;
+  }
+
+  .table-wrapper {
+    margin: 0 -1rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  img,
+  video {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  main {
+    margin: 0.5rem;
+    padding: 0.8rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  /* Fix for About page image float */
+  article img[style*="float:left"] {
+    float: none !important;
+    margin: 1rem auto !important;
+    display: block;
+  }
+
+  /* Improve readability on small screens */
+  p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  footer {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .custom-list {
+    margin-left: 1.2rem;
+  }
+}
+
+/* For very small screens */
+@media screen and (max-width: 320px) {
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  nav ul li a {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  main {
+    padding: 0.5rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  nav {
+    display: none;
+  }
+
+  main {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }

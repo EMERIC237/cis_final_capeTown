@@ -1,0 +1,330 @@
+/* Responsive styles and media queries */
+
+/* Tablet and smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 2rem 0 1.5rem 0;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.1rem;
+    }
+
+    /* History & Culture page responsive styles */
+    .landmark-story {
+        padding: 1.2rem;
+        margin: 1.5rem 0;
+    }
+
+    .landmark-story h3 {
+        font-size: 1.5rem;
+    }
+
+    .history-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .history-highlights li {
+        margin-bottom: 1.2rem;
+        padding-left: 1.5rem;
+    }
+
+    .custom-list li {
+        padding: 0.6rem 0 0.6rem 2.5rem;
+    }
+
+    .custom-list li::before {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    /* Home page responsive styles */
+    .hero-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .intro-text {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .image-caption {
+        padding: 1.5rem 1.2rem 1rem;
+    }
+
+    .image-caption h3 {
+        font-size: 1.4rem;
+    }
+
+    .welcome-features {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 0.8rem;
+    }
+
+    .table-wrapper {
+        margin: 1.5rem -1rem;
+        border-radius: 0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+        font-size: 0.9rem;
+        border-radius: 0;
+    }
+
+    caption {
+        font-size: 1.1rem;
+        padding: 0.8rem;
+    }
+
+    th,
+    td {
+        padding: 0.8rem;
+    }
+
+    img,
+    video {
+        margin: 0.5rem 0;
+    }
+
+    /* Carousel responsive styles */
+    .carousel {
+        padding: 0.8rem;
+        gap: 1rem;
+    }
+
+    .carousel-item {
+        width: 180px;
+    }
+
+    .carousel-item img {
+        height: 160px;
+    }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 1.5rem 0 1.2rem 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+        padding: 0.8rem;
+    }
+
+    section {
+        margin-bottom: 2rem;
+    }
+
+    table th,
+    table td {
+        padding: 0.6rem 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    caption {
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+
+    /* Improved table responsiveness for small screens */
+    th {
+        white-space: nowrap;
+    }
+
+    .table-wrapper {
+        margin: 1.2rem -0.8rem;
+        border-radius: 0;
+    }
+
+    /* Carousel responsive styles for mobile */
+    .carousel {
+        padding: 0.5rem;
+        gap: 0.8rem;
+        justify-content: flex-start;
+    }
+
+    .carousel-item {
+        width: 140px;
+    }
+
+    .carousel-item img {
+        height: 140px;
+    }
+
+    .carousel-item figcaption {
+        font-size: 0.8rem;
+    }
+
+    /* Fix for About page image float */
+    article img[style*="float:left"] {
+        float: none !important;
+        margin: 1rem auto !important;
+        display: block;
+    }
+
+    /* Improve readability on small screens */
+    p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    footer {
+        padding: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .custom-list {
+        margin-left: 1.2rem;
+    }
+}
+
+/* For very small screens */
+@media screen and (max-width: 320px) {
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    nav ul li a {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    /* History & Culture mobile styles */
+    .landmark-story {
+        padding: 1rem 0.8rem;
+        margin: 1rem 0;
+    }
+
+    .landmark-story h3 {
+        font-size: 1.3rem;
+    }
+
+    .landmark-story p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    /* Home page mobile styles */
+    .hero-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .intro-text {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    .image-caption {
+        padding: 1.2rem 1rem 0.8rem;
+    }
+
+    .image-caption h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .image-caption p {
+        font-size: 0.85rem;
+    }
+
+    .feature-card {
+        padding: 1rem;
+    }
+
+    .feature-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .history-highlights li {
+        padding-left: 1.2rem;
+    }
+
+    .custom-list li::before {
+        width: 1.5rem;
+        height: 1.5rem;
+        top: 0.55rem;
+    }
+
+    .history-section h2 {
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+    }
+
+    table th,
+    table td {
+        padding: 0.5rem 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    caption {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    nav {
+        display: none;
+    }
+
+    main {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
